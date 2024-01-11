@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="474.0" prefWidth="400.0" styleClass="bodybg" stylesheets="@HelloContoller.CSS" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.final_propro.HelloController">
+   <children>
+      <Button fx:id="restart" blendMode="SCREEN" layoutX="227.0" layoutY="231.0" mnemonicParsing="false" onAction="#restart" prefHeight="62.0" prefWidth="141.0" text="RESTART" textFill="#201f1f">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Button>
+      <Button fx:id="resbutt" blendMode="SCREEN" layoutX="35.0" layoutY="231.0" mnemonicParsing="false" onAction="#resumegame12" prefHeight="62.0" prefWidth="142.0" text="RESUME" textFill="#202020">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Button>
+      <Label fx:id="label3" layoutX="14.0" layoutY="22.0" prefHeight="30.0" prefWidth="149.0" styleClass="font" stylesheets="@font.CSS" text="SCORE:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button blendMode="SCREEN" layoutX="285.0" layoutY="22.0" mnemonicParsing="false" onAction="#switchtoscene1" text="EXIT/SAVE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

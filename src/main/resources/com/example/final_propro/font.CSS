@@ -1,0 +1,7 @@
+@import url("arcadeclassic.regular.ttf")
+
+
+.font{
+    font-family:"ArcadeClassic";
+    -fx-font-family:"ArcadeClassic";
+}

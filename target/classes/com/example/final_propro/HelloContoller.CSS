@@ -1,0 +1,15 @@
+@import url("arcadeclassic.regular.ttf")
+
+.font{
+   -fx-font-family:"ArcadeClassic";
+    font-family:"ArcadeClassic";
+}
+
+.bodybg{
+    -fx-background-image: url("Background.jpg");
+    -fx-background-size: 100% 100%;
+}
+.headtext{
+    -fx-background-size: 100% 100%;
+}
+
